@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* ======================================================== */
+/* general styles */
+
+html{
+    font-size: 1.125em;
+}
+
+body{
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: 1.20;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 2.5556em;
+    letter-spacing: -2%;
+}
+
+p{
+    font-size: 1.1111em;
+}
+
+button{
+    text-transform: uppercase;
+    border-radius: 4.8333rem;
+    padding: 1.1667em 1.9444em;
+    line-height: 0.969;
+}
+
+.blue-button{
+    background-color: #7AE5FD;
+}
+
+.white-button{
+    background-color: #FFFFFF;
+}
+
+/* ======================================================== */
+/* header */
+
+.header-container{
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 2.2222em 3.9444em;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+
+.logo{  
+    height: 65px;
+    width: 65px;
+}
+
+.menu-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item{
+    margin-left: 3.1111em;
+    line-height: 0.969;
+}
+
+.header-main-button{
+    margin-left: 1.3333em;
+}
+
+/* ======================================================== */
+/* first screen */
+
+.first-screen{
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("./assets/images/welcoming-image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.first-screen-container{
+    width: 50%;
+    margin-left: 5.8333em;
+}
+
+.main-title{
+    font-weight: 800;
+    font-size: 3.5039em;
+    line-height: 0.94;
+    letter-spacing: -2%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.main-description{
+    margin: 1.1111em 0em;
+}
+
+/* ======================================================== */
+/* introduction */
+
+.introduction-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8.8889em 3.9444em;
+    text-align: center;
+}
+
+.introduction-header{
+    text-transform: uppercase;
+    font-size: 3.3333em;
+    margin-bottom: 0.25em;
+}
+
+.introduction-sub-header{
+    text-transform: initial;
+    font-size: 1.5em;
+    margin-bottom: 0.5555em;
+}
+
+.introduction-description{
+    color: #73A6B1;
+}
+
+/* ======================================================== */
+/* description */
+
+.description-screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3.9444em;
+    margin-right: 3.9444em;
+    margin-bottom: 8.8889em;
+}
+
+.description-block{
+    background-color: #F1FDFF;
+    padding: 2.2222em 3.4444em;
+    margin-bottom: 2.7778em;
+
+    display: flex;
+    align-items: center;
+}
+
+.description-title{
+    margin-bottom: 0.2173em;
+}
+
+.description-image{
+    width: 585px;
+    height: 424px;
+    margin-left: 3.4444em;
+}
+
+.description-screen .blue-button{
+    align-self: center;
+}
